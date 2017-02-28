@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Jitsi Desktop Streamer",
-  "description": "A simple extension that allows you to stream your desktop into meetings with Jitsi Meet and Jitsi Videobridge.",
-  "version": "0.1.6",
+  "name": "Kalix Desktop Streamer",
+  "description": "A simple extension that allows you to stream your desktop into your online sessions in Kalix.",
+  "version": "0.0.1",
   "minimum_chrome_version": "34",
   "icons": {
-    "16": "jitsi-logo-16x16.png",
-    "48": "jitsi-logo-48x48.png",
-    "128": "jitsi-logo-128x128.png"
+    "16": "kalix-16x16.png",
+    "48": "kalix-48x48.png",
+    "128": "kalix-128x128.png"
   },
   "background": {
         "scripts": [ "background.js" ],
@@ -17,8 +17,9 @@
       "desktopCapture"
   ],
   "externally_connectable": {
-      "matches": [
-          "*://meet.jit.si/*"
-      ]
+    "matches": [
+        "https://www.kalixhealth.com/*",
+        "https://test.kalixhealth.com/*"
+    ]
   }
 }
