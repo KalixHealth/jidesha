@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Kalix Desktop Streamer",
   "description": "A simple extension that allows you to stream your desktop into your online sessions in Kalix.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "minimum_chrome_version": "34",
   "icons": {
     "16": "kalix-16x16.png",
@@ -19,7 +19,9 @@
   "externally_connectable": {
     "matches": [
         "https://www.kalixhealth.com/*",
-        "https://test.kalixhealth.com/*"
+        "https://app.kalixhealth.com/*",
+        "https://test.kalixhealth.com/*",
+        "https://testapp.kalixhealth.com/*"
     ]
   }
 }
